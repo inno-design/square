@@ -956,7 +956,7 @@ body {
 .section_solution {
   position: absolute;
   top: 0;
-  right: -100%;
+  left: 75%;
   bottom: 0;
   width: 25%;
   background-color: #e6e7e8;
