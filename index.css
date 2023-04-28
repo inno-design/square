@@ -595,6 +595,8 @@ textarea,
 }
 .swiper-slide-active.section_cloudit .section_solution {
   background-color: #0078FF;
+  left: 0;
+  animation: left75 0.5s cubic-bezier(0, 0.6, 0.13, 1) both;
 }
 .swiper-slide-active.section_cloudit .motion_container {
   left: -110%;
@@ -958,7 +960,6 @@ body {
   bottom: 0;
   width: 25%;
   background-color: #e6e7e8;
-  animation: right0 1s cubic-bezier(0, 0.6, 0.13, 1) both;
   transition: background-color 0.5s;
 }
 .section_solution .inner {
