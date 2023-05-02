@@ -13,7 +13,7 @@
 <body>
 <div class="wrap swiper">
   <div class="swiper-wrapper">
-    <div class="swiper-slide" data-swiper-autoplay="52500">
+    <div class="swiper-slide" data-swiper-autoplay="52700">
       <video
           id="intro"
           class="video-js"
@@ -21,7 +21,6 @@
           height="100%"
           autoplay
           muted
-          controls
           poster=""
           src="src/video/intoduce.mp4"
       ></video>
@@ -585,7 +584,7 @@
       delay: 6000,
     },
   });
-  swiper.on('slideChangeTransitionStart', swiperVideoPlay);
+  swiper.on('slideChangeTransitionEnd', swiperVideoPlay);
   swiper.init();
   function swiperVideoPlay(){
     if(prevVideo){
