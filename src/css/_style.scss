@@ -60,7 +60,7 @@ body {
     align-items: center;
     border-radius: 2.8vw;
     overflow: hidden;
-    background-color: #e6e7e8;
+    background-color: #f0f0f0;
   }
 
   video {
@@ -78,6 +78,64 @@ body {
 
   .img_overflow {
     overflow: visible
+  }
+}
+
+.img_solution {
+  position: absolute;
+  max-width: 150%;
+}
+
+.section_cloudit {
+  .img_solution {
+    width: 130%;
+    height: 130%;
+    position: absolute;
+    right: -35%;
+  }
+}
+
+.section_cloudit2 {
+  .img_solution {
+    width: 100%;
+    height: 100%;
+    top: -20%;
+  }
+}
+
+.section_openstackit {
+  .img_solution {
+    width: 130%;
+    height: 130%;
+    left: -30%;
+    top: -10%;
+  }
+}
+
+.section_se {
+  .img_solution {
+    width: 120%;
+    height: 120%;
+    position: absolute;
+    right: -40%;
+    top: 0
+  }
+}
+
+.section_tab {
+  .img_solution {
+    width: 100%;
+    height: 100%;
+    left: -20%;
+  }
+}
+
+.section_tab2 {
+  .img_solution {
+    width: 130%;
+    height: 130%;
+    top: -30%;
+    left: 0;
   }
 }
 
